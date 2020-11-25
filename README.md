@@ -1,24 +1,19 @@
 # YTDownloader
 
-This repository is for the development of YTDownloader.
-The original verison is located inside of the PythonSwissArmyKnife repo
+This is a fork of a YouTube downloader that was pretty simple.
 
-this is a simple youtube video downloader made completely in python using PySimpleGUI and pytube. 
+This version adds:
+* Ability to choose the stream
+* A detailed progress meter
+* A progress meter and a Gauge in the main window
 
-![image](https://user-images.githubusercontent.com/52459675/99863247-3ecc3f00-2b6b-11eb-99f2-263abf9fe15e.png)
+This screenshot shows using it normally
 
---WORK IN PROGESS--
+![yt downloader 1](https://user-images.githubusercontent.com/46163555/100232021-ca402a00-2ef5-11eb-9a31-9d6e1dd9d8b1.gif)
 
-**What it can currently do:
+This screenshot shows the detailed progress meter.
 
-  Download a youtube video at fast speeds  
-  Select a directory to which users want videos saved.
-  
-**Whats coming up next:
+This detailed meter can be added to your code by inserting a single line of code.  PySimpleGUI has a call named "one_line_progress_meter" that when added to your loop will display a small window with download stastics.
 
-  Download progress bar
-  Multiple video downloads 
-  
- 
- 
-  **Special thanks to Mike for the awesome help and insight.
+
+![yt downloader 2](https://user-images.githubusercontent.com/46163555/100232022-ca402a00-2ef5-11eb-995a-1a611cb7a932.gif)
