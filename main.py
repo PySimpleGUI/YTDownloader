@@ -263,6 +263,7 @@ def download_video(stream):
     global done, title, streams, counter
 
     counter = 0
+    stream = streams.get_highest_resolution()
     stream.download()
 
 def progress_callback(chunk, fh, bytes_remaining):
